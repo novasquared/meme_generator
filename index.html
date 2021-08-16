@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Meme Generator</title>
+    </head>
+    <body>
+        <div id = "container">
+            <header>
+                <div id = "left">
+                    <h3>Create Meme</h3>
+                    <div id = "myform">
+                            <p>Enter your memes below:</p>
+                        <ul>
+                            <li>Both an image and text for the top of the image are required.</li>
+                            <li>Memes will appear below when you click the submit button.</li>
+                            <li>Delete a meme by clicking and confirming you want to delete it.</li>
+                        </ul>
+                        <form>
+                            <input class = "memeInfo" type = "url" name = "image" placeholder = "Enter URL for image here" required>
+                            <input class = "memeInfo" name = "top_text" placeholder = "Enter text for top" required minlength = "2" maxlength = "35">
+                            <input class = "memeInfo"  name = bottom_text placeholder = "Enter text for bottom" minlength = "2" maxlength = "35">
+                            <button id = "submit" type="submit">Add Meme</button>
+                        </form>
+                    </div>
+                </div>
+                <div id = "right">
+                    <h1>Create Your Own Meme</h1>
+                    <h2>"Memes Echo Into Eternity"</h2>
+                </div>
+            </header>
+            <main id = memeDisplay>
+            </main>
+            <script src="script.js"></script>
+        </div>
+    </body>
+</html>
