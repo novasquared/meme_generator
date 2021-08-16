@@ -8,7 +8,7 @@
 }
 header {
     position: sticky;
-    background-image: url('/images/yodel.jpg');
+    background-image: url('images/yodel.jpg');
     background-size: 1350px 700px;
     height: 650px;
     opacity: 0.8;
